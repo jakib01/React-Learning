@@ -8,6 +8,7 @@ import OnChange from './components/Onchange'
 import Home from './components/Home'
 import CounterCC from './components/CounterCC'
 import CounterFC from './components/CounterFC'
+import Form from './components/Form/Form'
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
                     <Route exact path="/onchange" component={OnChange} />
                     <Route exact path="/counter/class/component" component={CounterCC} />
                     <Route exact path="/counter/functional/component" component={CounterFC} />
+                    <Route exact path="/form" component={Form} />
                     {/*<Route exact path="/contact" component={Contact}/>*/}
                     {/*<Route exact path="/products/add" component={AddProduct}/>*/}
                     {/*<Route exact path="/products/edit/:id" component={EditProduct}/>*/}

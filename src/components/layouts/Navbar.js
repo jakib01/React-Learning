@@ -20,6 +20,9 @@ const Navbar = () => {
                         <li className="nav-item">
                             <a className="nav-link" href="/counter/functional/component">FC Counter</a>
                         </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="/form">Form</a>
+                        </li>
                     </ul>
                 </div>
 
