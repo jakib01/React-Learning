@@ -14,6 +14,12 @@ const Navbar = () => {
                         <li className="nav-item">
                             <a className="nav-link" href="/onchange">Onchange</a>
                         </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="/counter/class/component">CC Counter</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="/counter/functional/component">FC Counter</a>
+                        </li>
                     </ul>
                 </div>
 

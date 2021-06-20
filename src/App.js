@@ -6,6 +6,8 @@ import Data from './data.json'
 import Navbar from './components/layouts/Navbar'
 import OnChange from './components/Onchange'
 import Home from './components/Home'
+import CounterCC from './components/CounterCC'
+import CounterFC from './components/CounterFC'
 
 function App() {
 
@@ -26,6 +28,8 @@ function App() {
                     <Route exact path="/" component={Home} />
                     <Route exact path="/card">{items}</Route>
                     <Route exact path="/onchange" component={OnChange} />
+                    <Route exact path="/counter/class/component" component={CounterCC} />
+                    <Route exact path="/counter/functional/component" component={CounterFC} />
                     {/*<Route exact path="/contact" component={Contact}/>*/}
                     {/*<Route exact path="/products/add" component={AddProduct}/>*/}
                     {/*<Route exact path="/products/edit/:id" component={EditProduct}/>*/}

@@ -4,7 +4,14 @@ import React from "react";
 
 function Card(props) {
     return (
-        <div className="container">
+
+        // <div className="row">
+        //     <div className="col-md-12">
+        //         <h1>Json show data in card</h1>
+        //     </div>
+        // </div>
+
+        <div className="container mt-4">
             <div className="row">
                 <div className="col-md-4">
                     <div className="card border shadow mt-4">
